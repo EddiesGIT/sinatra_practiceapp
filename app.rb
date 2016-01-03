@@ -11,10 +11,10 @@ require "./models.rb"
 
 #*****************************
 
-	get '/' do
-		erb :index
+	get '/sign-in' do
+
+		erb :signin
 end
 
-get '/sign-in' do
-	erb :signin
-end
+
+
